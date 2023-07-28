@@ -122,3 +122,28 @@ body {
 
   object-fit: cover;
 }
+
+.youtube {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  background-color: #ff0000;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.youtube img {
+  height: 20px;
+  width: auto;
+}
