@@ -147,3 +147,48 @@ body {
   height: 20px;
   width: auto;
 }
+
+@media (max-width: 576px) {
+  .container {
+    height: 300px;
+    width: 300px;
+  }
+
+  .imgBox {
+    height: 180px;
+    width: 180px;
+  }
+
+  .circle {
+    height: 80px;
+    width: 80px;
+  }
+
+  .circleImg {
+    height: 40px;
+  }
+
+  .circleFive {
+    top: -40px;
+  }
+  .circleSix {
+    bottom: -40px;
+  }
+
+  .circleSeven {
+    left: -40px;
+  }
+
+  .circleEight {
+    right: -40px;
+  }
+
+  .youtube {
+    padding: 4px;
+    font-size: 9px;
+  }
+
+  .youtube img {
+    height: 15px;
+  }
+}
